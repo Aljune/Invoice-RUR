@@ -1,0 +1,23 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    padding: 48px 0 0;
+    box-shadow: inset -1px 0 0 rgb(0 0 0 / 10%);
+}
+.sidebar-main-menu li a {
+    color: black;
+}
+
+.sidebar-main-menu li:hover{
+    background-color: #5a1a1ade;
+}
+.sidebar-main-menu li.active {
+    background-color: #5a1a1ade;
+    font-weight: 800;
+}
+.sidebar-main-menu li.active a ,.sidebar-main-menu li:hover a {
+    color: white;
+}
